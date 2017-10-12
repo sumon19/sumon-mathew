@@ -1,0 +1,256 @@
+#bod {
+	
+	
+	background-image:url(images/backpay.jpg);
+	position:absolute;
+	
+}
+
+#only {
+	
+	color:green;
+	position: relative;
+	visibility:hidden;
+		animation-name:only;
+
+    animation-duration: 10s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function:linear;
+	
+	
+}
+@keyframes only {
+    0%{left:1300px ; top:0px;visibility:visible;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {left:0px; top:0px;width:20px;visibility:hidden;}
+}
+#debit {
+	color:green;
+	position: relative;
+	visibility:hidden;
+		animation-name:debit;
+
+    animation-duration: 10s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function:linear;
+	
+}
+@keyframes debit{
+    0%{left:1300px ; top:0px;visibility:visible;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {left:0px; top:0px;width:20px;visibility:visible;}
+}
+#card {
+	color:green;
+	position: relative;
+	visibility:hidden;
+		animation-name:card;
+
+    animation-duration: 10s;
+    animation-delay:0s;
+	animation-iteration-count: 1;
+	animation-timing-function:linear;
+	
+}
+@keyframes card{
+    0%{left:1300px ; top:0px;visibility:visible;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {left:0px; top:0px;width:20px;visibility:visible;}
+}
+#is {
+	color:green;
+	position: relative;
+	visibility:hidden;
+		animation-name:is;
+
+    animation-duration: 10s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function:linear;
+	
+}
+@keyframes is{
+    0%{left:1300px ; top:0px;visibility:visible;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {left:0px; top:0px;width:20px;visibility:visible;}
+}
+#accepted {
+	color:green;
+	position: relative;
+	visibility:hidden;
+		animation-name:accepted;
+
+    animation-duration: 10s;
+    animation-delay:0s;
+	animation-iteration-count: 1;
+	animation-timing-function:linear;
+	
+}
+@keyframes accepted{
+    0%{left:1300px ; top:0px;visibility:visible;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+	
+    100% {left:0px; top:0px;width:20px;visibility:visible;}
+}
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+	
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+	height:60%;
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5),0 6px 20px 0 rgba(0,0,0,0.19);
+	background-image:url(images/payimg.jpg);
+	 animation-name: animatetop;
+    animation-duration: 0.7s
+}
+@keyframes animatetop {
+    0%{ opacity:0;right:-200;}
+
+    100%{opacity:1; -webkit-transform: rotate(0deg);right:100px;}
+}
+
+/* The Close Button */
+.close {
+    color:green;
+    float: right;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color:red;
+    text-decoration: none;
+    cursor: pointer;
+}
+#text {
+	
+	font-size:25px;
+	color:white;
+	font-style: italic;
+   
+	
+	
+}
+#canbtn {
+	
+	background-color:#0e4253;
+	color:white;
+	border-radius: 5px;
+	border-color:#0e4253;
+	box-shadow:10px;
+	
+	
+	
+	
+}
+#canbtn:hover {
+	
+	background-color:#0e4253;
+	color:white;
+	border-color:#0e4253;
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+#ordbtn {
+	
+	background-color:#0e4253;
+	color:white;
+	border-radius: 5px;
+	border-color:#0e4253;
+	
+	
+	
+}
+#ordbtn:hover {
+	
+	
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+#gif {
+	
+	
+	position:relative;
+	 width: 70px;
+	 top:30px;
+	
+	
+}
+.gif {
+	
+	
+	
+	
+ animation-name:top;
+    animation-duration: 1s
+}
+@keyframes top {
+    0%{left:0px;}
+    100%{left:600px;visibility:hidden;}
+}
+.shake {
+	
+	
+	
+	
+ animation-name:shake;
+    animation-duration: 0.5s
+}
+@keyframes shake{
+    0%{left:0px;}
+    40%{left:10px;}
+	 80%{left:0px;}
+    100%{left:0px;}
+}
+#total {
+font-size:26px;	
+font-weight:bold;
+font-style:italic;	
+color:white;
+}
+
+#ticketNum {
+
+width:30px;
+
+
+}	
+
+
+
+

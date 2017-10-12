@@ -1,0 +1,397 @@
+#body {
+	background-image:url(images/back.jpg);
+	
+	
+}
+#gocart {
+	
+ position:absolute;
+  top:5px;
+    left: 1150px;
+	
+   
+ 
+}
+#c {
+	
+	visibility:hidden;
+	
+	
+}
+#print {
+	
+	position:relative;
+	top:-70px;
+	left:110px;
+	visibility:visible;
+	color:darkblue;
+	
+	
+}
+
+
+#btn1 {
+	
+	background-color:lightgreen;
+	border-color:skyblue;
+	color:black;
+
+	
+	
+}
+span {
+	
+	color:#253B4B;
+	
+	
+}
+#btn1:hover {
+	background-color:green;
+	
+}
+#item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10 {
+	width:30px;
+	background-color:teal;
+	color:white;
+	
+}
+
+
+h1{
+	
+	letter-spacing: 2px;
+	font-size: 50px;
+	color:green;
+	font-style: italic;
+    font-family:Georgia;
+	 text-shadow: 3px 2px skyblue;
+	 padding:2px;
+	  
+	  margin-right: 100px;
+	 
+	
+	 
+}
+#textt  {
+	width:200px;	
+	position: absolute;
+	
+	
+	
+	
+}
+
+
+img {
+	position: sticky;
+	 border-radius: 8px;
+	
+    width: 160px;
+	
+	
+}
+.imag1 {
+
+position: relative;
+		animation-name:imag1;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag1 {
+    0%{background-color:red;left:-0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:1100px; top:-160px; -webkit-transform: rotate(360deg);width:20px; opacity: 0.9;}
+}
+#imag1:hover,#imag2:hover, #imag3:hover, #imag4:hover, #imag5:hover, #imag6:hover, #imag7:hover, #imag8:hover, #imag9:hover, #imag10:hover  {
+  
+   filter: blur(0.8px);
+}
+#table {
+	
+position :absolute;	
+top:100px;
+left:50px;
+	
+}
+h1 {
+	
+text-align:center;
+
+	
+}
+#imag7 {
+	
+height:108px;	
+	
+}
+#imag5 {
+	
+height:120px;	
+	
+}
+#checkout {
+	
+	position:absolute;
+	
+	top:900px;
+	float:left;
+	width:200px;
+	height:40px;
+	
+	background-color:green;
+	}
+	#checkout:hover {
+	
+background-color:red;	
+		
+	}
+	
+	
+	#cart {
+	
+    width:65px;
+    right:40px;	
+	top:10px;
+	position: relative;
+	 
+	
+		
+	}
+	.halo {
+     /*transform: rotateY(180deg);*/
+		position: relative;
+		animation-name: example;
+
+    animation-duration: 3s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+		
+	}
+@keyframes example {
+    0%{background-color:red;left:-40px ; top:10px;}
+	
+     60% {color:red; left:260px; top:10px;-webkit-transform: rotate(360deg);}
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:-40px; top:10px; -webkit-transform: rotate(360deg);  }
+}
+
+
+.cartt {
+	
+	 
+	position: relative;
+	animation-name: sumon;
+
+    animation-duration: 1s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function:ease-in-out;
+	 
+	
+}
+@keyframes sumon {
+	
+    0% {left:0px; top:0px; }
+   
+    50% { left:30px; top:0px;  }
+	100%{left:0px; -webkit-transform: rotate(360deg);}
+}
+.imag2 {
+
+position: relative;
+		animation-name:imag2;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag2 {
+    0%{background-color:red;left:0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:890px; top:-170px; -webkit-transform: rotate(360deg);width:10px; opacity: 0.9;}
+}
+.imag3 {
+
+position: relative;
+		animation-name:imag3;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag3 {
+    0%{background-color:red;left:0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:660px; top:-160px; -webkit-transform: rotate(360deg);width:10px; opacity: 0.9;}
+}
+.imag4{
+
+position: relative;
+		animation-name:imag4;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag4 {
+    0%{background-color:red;left:0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:420px; top:-160px; -webkit-transform: rotate(360deg);width:10px; opacity: 0.9;}
+}
+.imag5{
+
+position:relative;
+		animation-name:imag5;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag5 {
+    0%{background-color:red;left:0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:200px; top:-160px; -webkit-transform: rotate(360deg);width:10px;height:10px; opacity: 0.9;}
+}
+.imag6{
+
+position:relative;
+		animation-name:imag6;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag6 {
+    0%{background-color:red;left:0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:1100px; top:-400px; -webkit-transform: rotate(360deg);width:15px; opacity: 0.9;}
+}
+.imag7{
+
+position:relative;
+		animation-name:imag7;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag7 {
+    0%{background-color:red;left:0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:900px; top:-400px; -webkit-transform: rotate(360deg);width:15px;height:15px; opacity: 0.9;}
+}
+
+.imag8{
+
+position:relative;
+		animation-name:imag8;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag8 {
+    0%{background-color:red;left:0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:660px; top:-400px; -webkit-transform: rotate(360deg);width:15px; opacity: 0.9;}
+}
+.imag9{
+
+position:relative;
+		animation-name:imag9;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag9 {
+    0%{background-color:red;left:0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:460px; top:-400px; -webkit-transform: rotate(360deg);width:15px; opacity: 0.9;}
+}
+.imag10{
+
+position:relative;
+		animation-name:imag10;
+
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+		
+	
+	
+}
+@keyframes imag10 {
+    0%{background-color:red;left:0px ; top:0px;}
+	
+    
+	 /*63%{ -webkit-transform: rotate(360deg);}*/
+    100% {background-color:red; left:240px; top:-400px; -webkit-transform: rotate(360deg);width:15px; opacity: 0.9;}
+}
+
+
+
+
+
+
+
+	

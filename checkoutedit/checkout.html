@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>freshius</title>
+<link href="pay.css" rel="stylesheet" />
+<link href="web.css" rel="stylesheet" />
+</head>
+<body id="body">
+<div id="gocart" onclick="checkout"><image id="cart0"  src="images/cart1.png" /><h2 id="print">0</h2></div>
+<h1 ><image id="cart" onclick="animation()" src="images/newcart.png" /></h1>
+<div id="items">
+<table id="table" cellspacing="60">
+<tr><td><image id="imag1" src="images/cabbage.jpg" />
+</br><span>No of item :</span><input  id="item1" value="0" type="number" max="5"  /><span>kg</span>
+</br><input id="btn1" type="button" onclick="cabbage()" value="Add to Cart"></td>
+<td><image id="imag2" src="images/chilly.jpg" />
+</br><span>No of item:</span><input id="item2" value="0" type="number" max="5"  /><span>kg</span>
+</br><input id="btn1" type="button"onclick="redchilly()"  value="Add to Cart"></td>
+<td><image id="imag3"src="images/capsicum.jpg" />
+</br><span>No of item:</span><input id="item3" value="0" type="number" max="5" /><span>kg</span>
+</br><input id="btn1" type="button" onclick="capsicum()"  value="Add to Cart"></td>
+<td><image id="imag4"src="images/tomato.jpg" />
+</br><span>No of item:</span><input id="item4" value="0" type="number" max="5" /><span>kg</span>
+</br><input id="btn1" type="button" onclick="tomato()" value="Add to Cart"></td>
+<td><image id="imag5" src="images/onion.jpg" />
+</br><span>No of item:</span><input id="item5" value="0" type="number" max="5" /><span>kg</span>
+</br><input id="btn1" type="button" onclick="onion()" value="Add to Cart"></td></tr>
+<tr><td><image id="imag6" src="images/dontknow.jpg" />
+</br><span> No of item:</span><input id="item6" value="0" type="number" max="5" /><span>kg</span>
+</br><input id="btn1" type="button" onclick="dontknow()" value="Add to Cart"></td>
+<td><image  id="imag7"src="images/papaya.jpg" />
+</br><span>No of  item :</span><input id="item7" value="0" type="number" max="5" /><span>kg</span>
+</br><input id="btn1"type="button" onclick="papaya()" value="Add to Cart"></td>
+<td><image id="imag8"src="images/strawberry.jpg" />
+</br><span>No of  item :</span><input id="item8" value="0" type="number" max="5" /><span>kg</span>
+</br><input id="btn1" type="button" onclick="strawberry()" value="Add to Cart"></td>
+</br><td><image id="imag9"src="images/ladyfinger.jpg" />
+</br><span>No of  item :</span><input id="item9" value="0" type="number" max="5" /><span>kg</span>
+</br><input id="btn1" type="button" onclick="ladyfinger()"value="Add to Cart"></td>
+<td><image id="imag10"src="images/orange.jpg" />
+</br><span>No of  item :</span><input id="item10" value="0" type="number" max="5" /><span>kg</span>
+</br><input id="btn1" type="button" onclick="orange()" value="Add to Cart"></td></tr>
+
+
+</table>
+
+</div>
+<div id="myModal" class="modal">
+
+  <!-- second page -->
+  <div class="modal-content" id="modal">
+    <span class="close">&times;</span>
+    <p id="text">Some text in the Modal..</p>
+  
+	<input id="canbtn" onclick="cancel()" type="button" value="EMPTY CART" />
+	<input id="ordbtn" onclick="order()" type="button" value="CHECKOUT"  />
+	
+	 
+	
+	
+	<div ><image id="gif" onclick="shake()"  src="gif.png" /></div>
+  </div>
+
+</div>
+
+
+<div style="text-align:left;">
+<input  id="checkout"  type="button"   value="ckeckout" />
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript" src="pay.js"></script>
+<script type="text/javascript" src="web.js"></script>
+<script type="text/javascript" src="stop.js"></script>
+</body>
+</html>
